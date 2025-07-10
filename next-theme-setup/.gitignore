@@ -1,0 +1,59 @@
+# ===================================
+# 🏗️ NEXT.JS & VERCEL
+# ===================================
+# Fichiers de build et de cache de Next.js
+.next/
+out/
+build/
+
+# Fichiers de configuration Vercel
+.vercel
+
+# Fichiers de types générés par Next.js
+next-env.d.ts
+*.tsbuildinfo
+
+# ===================================
+# 📂 DOSSIERS DE DÉVELOPPEMENT
+# ===================================
+node_modules/
+.pnp
+.pnp.js
+coverage/
+
+# ===================================
+# 📄 FICHIERS DE CONFIGURATION
+# ===================================
+# Ignorer tous les fichiers .env sauf le fichier d'exemple
+.env
+.env*.local
+!.env.example
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===================================
+# 🔧 OUTILS DE DÉVELOPPEMENT
+# ===================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.eslintcache
+
+# ===================================
+# 📊 FICHIERS DE LOGS ET CACHE
+# ===================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.cache/
+
+# ===================================
+# 📦 FICHIERS OS
+# ===================================
+.DS_Store
+Thumbs.db
+desktop.ini
